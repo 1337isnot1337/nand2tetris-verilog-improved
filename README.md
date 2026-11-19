@@ -1,5 +1,7 @@
 # nand2tetris-verilog-improved
 
+[Pipelined Hack CPU project page](https://1337isnot1337.github.io/projects/hack-cpu/) — an illustrated overview of the design, scope, and source.
+
 This was my Capstone Project for Elements of Computing Systems I. This is an improved Verilog implementation of the Hack CPU with an additional global history branch predictor chip, and some simple fused instructions. I did not write the base verilog files, from projects 01 to 04 and a bit of 05, they are from **jopdorp/nand2tetris-verilog**. I also made the CPU **2-stage pipelined** for the branch predictor to be able to squash right.
 
 The ISA is mostly similar to Hack CPU specification besides that you need to watch out for the pipelining and also the fused instruction set.
